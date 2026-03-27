@@ -1,6 +1,0 @@
-services:
-  - type: static
-    name: landing
-    buildCommand: ""
-    staticPublishPath: landing
-    envVars: []
