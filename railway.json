@@ -1,10 +1,9 @@
 {
-  "$schema": "https://railpack.com/schema.json",
   "build": {
-    "builder": "static"
+    "builder": "static",
+    "buildCommand": "echo 'Static site'"
   },
   "deploy": {
-    "startCommand": "echo 'Static site deployed'",
     "outputDirectory": "landing"
   }
 }
