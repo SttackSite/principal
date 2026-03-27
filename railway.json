@@ -3,6 +3,7 @@
     "builder": "nixpacks"
   },
   "deploy": {
+    "startCommand": "serve -s landing -l $PORT",
     "outputDirectory": "landing"
   }
 }
