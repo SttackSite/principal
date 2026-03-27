@@ -1,7 +1,6 @@
 {
   "build": {
-    "builder": "static",
-    "buildCommand": "echo 'Static site'"
+    "builder": "nixpacks"
   },
   "deploy": {
     "outputDirectory": "landing"
